@@ -31,7 +31,7 @@ public class FakeWheat extends Item implements PolymerItem {
             return result;
         }
 
-        user.sendMessage(Text.literal("Hello Worldt!"), false);
+        user.sendMessage(Text.literal("Hello World!"), false);
 
         return TypedActionResult.success(result.getValue());
     }
