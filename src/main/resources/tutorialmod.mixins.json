@@ -4,8 +4,7 @@
   "package": "net.qf.tutorialmod.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-  ],
-  "client": [
+    "ServerPlayerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
